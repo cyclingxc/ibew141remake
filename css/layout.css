@@ -1,0 +1,112 @@
+html {
+    max-width: 700px;
+    padding: 0 10px 0 10px;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    margin: 0;
+    width: 100%;
+}
+
+.banner {
+    margin-top: 25px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+nav li {
+    flex: 1;
+}
+
+nav ul li a {
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: #333;
+}
+
+.imgredirect {
+    list-style: none;
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+.imgredirect li {
+    flex: 1;
+}
+.imgredirect li a {
+    display: block;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding: 0;
+    width: auto;
+}
+
+/*Split up About Us into two columns*/
+.column {
+    width:50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gmaps {
+    text-align: center;
+}
+
+body p {
+    font-size: medium;
+}
+
+body h1 {
+    color: #ff3232;
+    text-align: center;
+}
+
+body h2 {
+    font-size: 20px;
+    color: #193c70;
+}
+
+summary {
+    color: #193c70;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer {
+    color:black;
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+}
